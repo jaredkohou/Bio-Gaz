@@ -12,7 +12,7 @@ dotenv.config( { path : 'config.env'} )
 const PORT = process.env.PORT || 8080
 
 // log requests
-app.use(morgan('tiny'));
+app.use(morgan('tiny')); //middleware//
 
 // mongodb connection
 connectDB();
@@ -26,7 +26,7 @@ app.set("view engine", "ejs")
 
 // load assets
 app.use('/css', express.static(path.resolve(__dirname, "assets/css")))
-app.use('/img', express.static(path.resolve(__dirname, "assets/img")))
+
 app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
 
 // load routers
