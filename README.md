@@ -14,3 +14,4 @@ My unsolved problems?
 
 
 Notes to myself so you can come back to your project later in the course!
+  *fix my bug when deployed*
