@@ -9,3 +9,5 @@ I created server using express.js first, connected server with mongoDb to store 
 
 
 My unsolved problems?
+
+ Not able to host in heroku app at first. Its running properly in my in local host but there's a bug when deployed.
